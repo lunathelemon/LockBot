@@ -18,6 +18,9 @@ dependencies {
     // Log4j Logger
     implementation('org.apache.logging.log4j:log4j-core:2.18.0')
 
+    // JDBC connector
+    implementation 'mysql:mysql-connector-java:8.0.29'
+
     // Local libraries (./lib folder)
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 }
